@@ -1,0 +1,53 @@
+.portfolio-container {
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.portfolio-title{
+    margin: 0;
+    margin-left: 12px;
+    text-align: left;
+  }  
+
+.portfolio-square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #131320;
+    border: 2px solid #FFFFFF;
+    border-radius: .75rem;
+
+  }
+  
+  .portfolio-square p {
+    font-size: 1.1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-square button {
+    margin: 10px;
+  }
+  
+  
+  @media (max-width: 768px) {
+
+    .portfolio-title {
+        font-size: 12px;
+        text-align: left;
+    }
+
+
+    .portfolio-square p {
+        font-size: 13px;
+    }
+  
+    button {
+      font-size: 13px;
+    }
+  }
+  
