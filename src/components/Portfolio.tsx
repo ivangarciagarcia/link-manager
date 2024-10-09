@@ -7,7 +7,7 @@ const Portfolio: React.FC = () => {
         <p className="portfolio-title">Portfolio</p>
         <div className='portfolio-square'>
             <p>Descubre mas sobre mi carrera profesional</p>
-            <button>Portfolio</button>
+            <button onClick={() => window.open('https://ivangg.dev', '_blank')}>Portfolio</button>
         </div>
     
       

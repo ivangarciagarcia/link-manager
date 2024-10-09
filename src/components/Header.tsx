@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <section className="header">
       <img 
         className="profile-image"
-        src="../../../public/avatar1.png"
+        src="../../../avatar1.png"
         alt="Profile"
       />
       <div className='header-content'>
