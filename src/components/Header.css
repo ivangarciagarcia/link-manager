@@ -14,11 +14,16 @@
     border-radius: 50%;
     margin-right: 20px; /* Espacio entre la imagen y el texto */
   }
+
+  .header-content {
+    padding-left: 20px;
+  }
   
   .header-title {
     font-size: 48px;
     font-weight: bold;
     margin: 0;
+    padding-bottom: 10px;
   }
   
   .header-subtitle {
@@ -33,6 +38,10 @@
       flex-direction: column; /* Cambia a columna en pantallas pequeñas */
       align-items: center;
       text-align: center;
+    }
+
+    .header-content {
+      padding: 0;
     }
   
     .profile-image {
